@@ -1,0 +1,17 @@
+﻿Build started 9/29/2015 1:26:23 AM.
+     1>Project "D:\PROJECTS\TUT\DX\TriangleTest\TriangleTest\TriangleTest.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         G:\Software\VisualStudio13\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MainSource.cpp Shader.cpp
+         Shader.cpp
+         MainSource.cpp
+         Generating Code...
+       Link:
+         G:\Software\VisualStudio13\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\PROJECTS\TUT\DX\TriangleTest\Debug\TriangleTest.exe" /INCREMENTAL /NOLOGO /LIBPATH:dependencies\glew /LIBPATH:dependencies\glfw kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib glew32.lib glfw3.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\PROJECTS\TUT\DX\TriangleTest\Debug\TriangleTest.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\PROJECTS\TUT\DX\TriangleTest\Debug\TriangleTest.lib" /MACHINE:X86 Debug\MainSource.obj
+         Debug\Shader.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         TriangleTest.vcxproj -> D:\PROJECTS\TUT\DX\TriangleTest\Debug\TriangleTest.exe
+     1>Done Building Project "D:\PROJECTS\TUT\DX\TriangleTest\TriangleTest\TriangleTest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.74
